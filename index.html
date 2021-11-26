@@ -12,6 +12,52 @@
     <p>un paragraphe</p>
     <p style="display:inline-block;" >un paragraphe inline-block
       <p style="word-break:break-all">un paragraphe avec un mot hyperlong qui ne depassera pas la page grace a word-break rrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrraaaaaaaaaaaaaaaaaaaiiiiiiiiiiiiiiiiiiiiiiiiiiiiitttttttttttttttttttttgggggggggggggggggg</p>
-    <a href="/me.html">My other page</a>
+    <a href="/me.html">to My other page</a>
+      <BR/><br/>
+    UN MENU ESSAI
+    <nav  style="background-color:red; display:flex; justify-content :end">
+      <ul>
+          <li><a href="#">Item 1</a></li>
+          <li><a href="#">Item 2</a></li>
+          <li><a href="#">Item plus long</a></li>
+      </ul>
+    </nav>
+   
+
+    <!-- display block NB ON peut definir le width et me height MAIS le CONTENU DEBORDE si necessaire -->
+    <h4>display block</h4>
+    <div style="display:block; background-color: blue;  width:50px; height : 50px;text-align:center;">1</div>
+    <div style="display:block; background-color: green;  width:50px; height : 50px">AAA AAA AAAA AAA</div>
+    <div style="display:block; background-color: blue;  width:50px; height : 50px"></div>
+    <a>un inline qui commence apres un block , donc sur une nouvelle ligne</a>
+    <br/>
+
+    <h4>display block transformé en inline-block </h4>
+    <div style="display:inline-block; background-color: blue;  width:50px; height : 50px">AAA AAA A AA AAA AAA</div>
+    <div style="display:inline-block; background-color: green;  width:50px; height : 50px"></div>
+    <div style="display:inline-block; background-color: blue;  width:50px; height : 50px"></div>
+
+    <br/>
+  
+  
+    <h4> pour un  element inline, on ne PEUT PAS DEFINIR WIDTH NI HEIGHT?</h4>
+    <div style="display:inline; background-color: green;  width:50px; height : 50px">JJJ</div>
+    <div style="display:inline; background-color: green;  width:50px; height : 50px">K</div>
+    <div style="display:inline; background-color: blue;  width:50px; height : 50px">LLLLLLLLL</div>
+    
+
+    <br/>
+    <h4>display block transformé en inline-block avec <span style="color:white">position absolute </span> du magenta qui est sorti du flux et n'occupe plus de place la ou il devait apparaitre </h4>
+
+    <div style="display:inline-block; background-color: blue;  width:50px; height : 50px"></div>
+    <div style="display:inline-block; position:absolute; top: 50px; background-color: magenta;  width:50px; height : 50px"></div>
+    <div style="display:inline-block; background-color: blue;  width:50px; height : 50px"></div>
+
+    <br/>
+    <h4>display block transformé en inline-block avec <span style="color:white"> position relative </span> du vert</h4>
+    <div style="display:inline-block; background-color: blue;  width:50px; height : 50px"></div>
+    <div style="display:inline-block; position:relative; left: 20px;top:5px; background-color: green;  width:50px; height : 50px"></div>
+    <div style="display:inline-block; background-color: blue;  width:50px; height : 50px"></div>
+
   </body>
 </html>

@@ -11,6 +11,25 @@ p {
   border: solid black 1px;
 }
 
-.inline--block{
-  
+
+
+ul {
+  border: solid 1p blue;
+  margin-right: 10px;
 }
+
+li {
+  list-style: none;
+  display: inline-block;
+  border: solid 1px black;
+  padding : 2px
+}
+
+li:hover{
+  background-color: green;
+}
+
+a {
+  text-decoration: none;
+}
+
